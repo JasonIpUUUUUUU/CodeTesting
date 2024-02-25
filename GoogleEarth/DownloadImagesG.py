@@ -1,6 +1,22 @@
+#The following code is run on google Colab
+import ee
+import geemap
+
+import time
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.stats import norm, gamma, f, chi2
+import IPython.display as disp
+%matplotlib inline
+
+from IPython.display import Image
+
 # Import the Folium library.
 import folium
 from IPython.display import Image
+
+ee.Authenticate()
+ee.Initialize(project="satellite-415320")
 
 # Define a method for displaying Earth Engine image tiles to folium map.
 def add_ee_layer(self, ee_image_object, vis_params, name):
