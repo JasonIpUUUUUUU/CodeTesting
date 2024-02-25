@@ -1,4 +1,5 @@
 #The following code is run on google Colab
+
 import ee
 import geemap
 
