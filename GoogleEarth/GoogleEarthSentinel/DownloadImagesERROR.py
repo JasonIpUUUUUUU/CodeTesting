@@ -1,4 +1,5 @@
 #After running the setup code, copy this code into another box, I tried to display a Sentinel image in a specific band but it only displays a white image
+
 import folium
 from IPython.display import Image
 
