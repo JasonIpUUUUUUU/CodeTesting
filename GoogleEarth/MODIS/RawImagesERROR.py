@@ -1,5 +1,6 @@
 # I tried to download a raw image using the code from the website as a base but it outputs a white image, I am still trying to find out the reason
 
+#defining the raw image collection
 rw = ee.ImageCollection("LANDSAT/LC08/C02/T1")
 
 # Initial date of interest (inclusive).
@@ -8,6 +9,7 @@ i_date = '2016-01-01'
 # Final date of interest (exclusive).
 f_date = '2020-01-01'
 
+#selecting the RGB bands
 rw = rw.select(['B4', 'B3', 'B2']).filterDate(i_date, f_date)
 
 # Define the rural location of interest as a point away from the city.
@@ -27,12 +29,3 @@ print(url)
 
 print('\nPlease wait while the thumbnail loads, it may take a moment...')
 Image(url=url)
-
-lyon = r_poi.buffer(10000)  
-
-link = rw_img.getDownloadURL({
-    'scale': 30,
-    'crs': 'EPSG:4326',
-    'fileFormat': 'JPEG',
-    'region': lyon})
-print(link)
