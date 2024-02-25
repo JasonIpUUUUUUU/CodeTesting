@@ -1,5 +1,6 @@
 # Import the Folium library.
 import folium
+from IPython.display import Image
 
 # Define a method for displaying Earth Engine image tiles to folium map.
 def add_ee_layer(self, ee_image_object, vis_params, name):
@@ -15,6 +16,7 @@ def add_ee_layer(self, ee_image_object, vis_params, name):
 # Add EE drawing method to folium.
 folium.Map.add_ee_layer = add_ee_layer
 
+# Define your AOI
 geoJSON = {
   "type": "FeatureCollection",
   "features": [
@@ -66,7 +68,24 @@ ffa_fl = ee.Image(ee.ImageCollection('COPERNICUS/S1_GRD_FLOAT')
                        .first() 
                        .clip(aoi))
 
-ffa_db.bandNames().getInfo()
-
 url = ffa_db.select('VV').getThumbURL({'min': -20, 'max': 0})
 disp.Image(url=url, width=800)
+
+location = aoi.centroid().coordinates().getInfo()[::-1]
+
+# Make an RGB color composite image (VV,VH,VV/VH).
+rgb = ee.Image.rgb(ffa_db.select('VV'),
+                   ffa_db.select('VH'),
+                   ffa_db.select('VV').divide(ffa_db.select('VH')))
+
+# Create the map object.
+m = folium.Map(location=location, zoom_start=12)
+
+# Add the S1 rgb composite to the map object.
+m.add_ee_layer(rgb, {'min': [-20, -20, 0], 'max': [0, 0, 2]}, 'FFA')
+
+# Add a layer control panel to the map.
+m.add_child(folium.LayerControl())
+
+# Display the map.
+display(m)
