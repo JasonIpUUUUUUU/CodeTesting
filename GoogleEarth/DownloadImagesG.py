@@ -1,38 +1,72 @@
-import ee
-from datetime import datetime
+# Import the Folium library.
+import folium
 
-# Initialize the Earth Engine API
-ee.Initialize()
+# Define a method for displaying Earth Engine image tiles to folium map.
+def add_ee_layer(self, ee_image_object, vis_params, name):
+  map_id_dict = ee.Image(ee_image_object).getMapId(vis_params)
+  folium.raster_layers.TileLayer(
+    tiles = map_id_dict['tile_fetcher'].url_format,
+    attr = 'Map Data &copy; <a href="https://earthengine.google.com/">Google Earth Engine</a>',
+    name = name,
+    overlay = True,
+    control = True
+  ).add_to(self)
 
-# Define the region of interest (ROI)
-roi = ee.Geometry.Point([-122.4439, 37.7538])  # Example location (longitude, latitude)
+# Add EE drawing method to folium.
+folium.Map.add_ee_layer = add_ee_layer
 
-# Define time range
-start_date = datetime(2021, 1, 1)
-end_date = datetime(2021, 12, 31)
-
-# Create a Landsat image collection
-landsat_collection = (ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
-                      .filterBounds(roi)
-                      .filterDate(ee.Date(start_date), ee.Date(end_date))
-                      .sort('CLOUDY_PIXEL_PERCENTAGE')
-                      .first())
-
-# Print the image information
-print('Landsat Image Information:', landsat_collection.getInfo())
-
-# Download the image
-download_config = {
-    'scale': 30,
-    'region': roi
+geoJSON = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -3.2275984231436894,
+              15.131415167131749
+            ],
+            [
+              -3.2275984231436894,
+              15.09579432760799
+            ],
+            [
+              -3.179786012280232,
+              15.09579432760799
+            ],
+            [
+              -3.179786012280232,
+              15.131415167131749
+            ],
+            [
+              -3.2275984231436894,
+              15.131415167131749
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
 }
 
-task = ee.batch.Export.image.toDrive(
-    image=landsat_collection,
-    description='landsat_image',
-    folder='earth_engine_images',
-    scale=30
-)
+coords = geoJSON['features'][0]['geometry']['coordinates']
+aoi = ee.Geometry.Polygon(coords)
 
-# Start the export task
-task.start()
+ffa_db = ee.Image(ee.ImageCollection('COPERNICUS/S1_GRD') 
+                       .filterBounds(aoi) 
+                       .filterDate(ee.Date('2020-08-01'), ee.Date('2020-08-31')) 
+                       .first() 
+                       .clip(aoi))
+ffa_fl = ee.Image(ee.ImageCollection('COPERNICUS/S1_GRD_FLOAT') 
+                       .filterBounds(aoi) 
+                       .filterDate(ee.Date('2020-08-01'), ee.Date('2020-08-31')) 
+                       .first() 
+                       .clip(aoi))
+
+ffa_db.bandNames().getInfo()
+
+url = ffa_db.select('VV').getThumbURL({'min': -20, 'max': 0})
+disp.Image(url=url, width=800)
