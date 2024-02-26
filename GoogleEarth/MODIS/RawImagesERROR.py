@@ -1,6 +1,6 @@
 # I tried to download a raw image using the code from the website as a base but it outputs a white image, I am still trying to find out the reason
 
-#defining the raw image collection
+#defining the raw image collection, obtained from https://developers.google.com/earth-engine/datasets/catalog/landsat-8
 rw = ee.ImageCollection("LANDSAT/LC08/C02/T1")
 
 # Initial date of interest (inclusive).
@@ -18,13 +18,13 @@ r_lat = 45.574064
 r_poi = ee.Geometry.Point(r_lon, r_lat)
 
 # Define a region of interest with a buffer zone of 1000 km around Lyon.
-roi = r_poi.buffer(10000)
+roi = r_poi.buffer(1000)
 
 rw_img = rw.mean()
 
 # Create a URL to the styled image for a region around France.
 url = rw_img.getThumbUrl({
-    'min': 0, 'max': 255, 'dimensions': 512, 'region': roi})
+    'min': 0, 'max': 255, 'dimensions': 1024, 'region': roi})
 print(url)
 
 print('\nPlease wait while the thumbnail loads, it may take a moment...')
