@@ -1,4 +1,4 @@
-# the following code exports sentinel images to your google drive
+# the following code exports sentinel images to your google drive, I learned how to do it from https://www.youtube.com/watch?v=Lqirs04EccA&t=51s
 
 i_date = '2020-01-01'
 f_date = '2020-05-01'
