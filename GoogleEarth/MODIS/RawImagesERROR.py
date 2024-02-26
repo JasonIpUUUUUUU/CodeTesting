@@ -24,7 +24,7 @@ rw_img = rw.mean()
 
 # Create a URL to the styled image for a region around France.
 url = rw_img.getThumbUrl({
-    'min': 10, 'max': 30, 'dimensions': 512, 'region': roi,})
+    'min': 0, 'max': 255, 'dimensions': 512, 'region': roi})
 print(url)
 
 print('\nPlease wait while the thumbnail loads, it may take a moment...')
