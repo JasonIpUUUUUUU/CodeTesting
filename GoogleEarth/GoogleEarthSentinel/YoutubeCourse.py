@@ -1,3 +1,5 @@
+# the following code exports sentinel images to your google drive
+
 i_date = '2020-01-01'
 f_date = '2020-05-01'
 
