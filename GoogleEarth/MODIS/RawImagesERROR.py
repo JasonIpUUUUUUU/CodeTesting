@@ -29,3 +29,11 @@ print(url)
 
 print('\nPlease wait while the thumbnail loads, it may take a moment...')
 Image(url=url)
+
+
+link = lst_img.getDownloadURL({
+    'scale': 30,
+    'crs': 'EPSG:4326',
+    'fileFormat': 'GeoTIFF',
+    'region': roi})
+print(link)

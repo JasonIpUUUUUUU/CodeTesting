@@ -1,5 +1,3 @@
-# This contains the code I copied from the website, the first link it outputs is to see the image and the second one is to download a TIFF image
-
 # Import the MODIS land cover collection.
 lc = ee.ImageCollection('MODIS/006/MCD12Q1')
 
@@ -65,3 +63,26 @@ print(url)
 # Display the thumbnail land surface temperature in France.
 print('\nPlease wait while the thumbnail loads, it may take a moment...')
 Image(url=url)
+
+# Make pixels with elevation below sea level transparent.
+elv_img = elv.updateMask(elv.gt(0))
+
+# Display the thumbnail of styled elevation in France.
+Image(url=elv_img.getThumbURL({
+    'min': 0, 'max': 2000, 'dimensions': 512, 'region': roi,
+    'palette': ['006633', 'E5FFCC', '662A00', 'D8D8D8', 'F5F5F5']}))
+
+# Create a buffer zone of 10 km around Lyon.
+lyon = u_poi.buffer(10000)  # meters
+
+url = elv_img.getThumbUrl({
+    'min': 150, 'max': 350, 'region': lyon, 'dimensions': 512,
+    'palette': ['006633', 'E5FFCC', '662A00', 'D8D8D8', 'F5F5F5']})
+Image(url=url)
+
+link = lst_img.getDownloadURL({
+    'scale': 30,
+    'crs': 'EPSG:4326',
+    'fileFormat': 'GeoTIFF',
+    'region': lyon})
+print(link)
