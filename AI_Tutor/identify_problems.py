@@ -38,7 +38,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 model = tf.keras.Sequential([
-    tf.keras.layers.Embedding(input_dim=len(word_index) + 1, output_dim=16, input_length=max_sequence_length),
+    tf.keras.layers.Embedding(input_dim=len(word_index) + 1, output_dim=16),
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(len(label_dict), activation='softmax')
