@@ -142,3 +142,112 @@ What is the result of 48 plus 13? # addition
 If you have 45 candies and receive 21 more, how many do you have now? # addition
 The combination of 49 and 16 is? # addition
 What is the total when you add 47 and 19? # addition
+45 - 23 = # subtraction
+64 - 37 = # subtraction
+89 - 51 = # subtraction
+76 - 28 = # subtraction
+102 - 48 = # subtraction
+63 - 14 = # subtraction
+37 - 21 = # subtraction
+56 - 34 = # subtraction
+72 - 19 = # subtraction
+95 - 67 = # subtraction
+120 - 84 = # subtraction
+49 - 27 = # subtraction
+83 - 46 = # subtraction
+589 - 243 = # subtraction
+724 - 387 = # subtraction
+913 - 561 = # subtraction
+826 - 294 = # subtraction
+1056 - 482 = # subtraction
+679 - 142 = # subtraction
+455 - 231 = # subtraction
+622 - 341 = # subtraction
+768 - 195 = # subtraction
+1004 - 678 = # subtraction
+1232 - 849 = # subtraction
+538 - 297 = # subtraction
+879 - 463 = # subtraction
+1215 - 899 = # subtraction
+584 - 328 = # subtraction
+697 - 154 = # subtraction
+940 - 607 = # subtraction
+1179 - 782 = # subtraction
+1356 - 987 = # subtraction
+805 - 462 = # subtraction
+1036 - 594 = # subtraction
+1223 - 981 = # subtraction
+1472 - 1238 = # subtraction
+899 - 453 = # subtraction
+746 - 398 = # subtraction
+651 - 172 = # subtraction
+1003 - 529 = # subtraction
+1196 - 791 = # subtraction
+1367 - 1092 = # subtraction
+617 - 293 = # subtraction
+869 - 434 = # subtraction
+1196 - 743 = # subtraction
+1314 - 986 = # subtraction
+583 - 356 = # subtraction
+423 - 196 = # subtraction
+768 - 427 = # subtraction
+1036 - 582 = # subtraction
+1206 - 569 = # subtraction
+1433 - 1129 = # subtraction
+875 - 439 = # subtraction
+650 - 297 = # subtraction
+1124 - 788 = # subtraction
+946 - 646 = # subtraction
+1307 - 1204 = # subtraction
+1422 - 1347 = # subtraction
+1155 - 882 = # subtraction
+596 - 322 = # subtraction
+823 - 494 = # subtraction
+What is the result when 589 is subtracted from 243? # subtraction
+If you have 724 and take away 387, what is the answer? # subtraction
+You had 913, and now you subtract 561. What is the remaining value? # subtraction
+If 294 is subtracted from 826, what do you get? # subtraction
+Starting with 1056, if you subtract 482, what is the outcome? # subtraction
+Subtract 142 from 679. What is the result? # subtraction
+455 minus 231 equals? # subtraction
+You have 622, and you subtract 341. What is the remaining amount? # subtraction
+From 768, subtract 195. What is the outcome? # subtraction
+What is the result when 678 is subtracted from 1004? # subtraction
+If you had 1232 and subtract 849, what is the remaining value? # subtraction
+538 subtracted from 297 equals? # subtraction
+Subtract 463 from 879. What is the result? # subtraction
+If you start with 1215 and subtract 899, what is the outcome? # subtraction
+From 584, subtract 328. What is the remaining amount? # subtraction
+If you subtract 154 from 697, what is the result? # subtraction
+Starting with 940, if you subtract 607, what is the outcome? # subtraction
+What is the result when 782 is subtracted from 1179? # subtraction
+If you have 1356 and take away 987, what is the answer? # subtraction
+Subtract 462 from 805. What is the result? # subtraction
+You had 1036, and now you subtract 594. What is the remaining value? # subtraction
+If 981 is subtracted from 1223, what do you get? # subtraction
+Starting with 1472, if you subtract 1238, what is the outcome? # subtraction
+Subtract 453 from 899. What is the result? # subtraction
+From 746, subtract 398. What is the remaining amount? # subtraction
+What is the result when 172 is subtracted from 651? # subtraction
+If you start with 1003 and subtract 529, what is the outcome? # subtraction
+Subtract 791 from 1196. What is the result? # subtraction
+From 1367, subtract 1092. What is the remaining value? # subtraction
+If you subtract 293 from 617, what is the result? # subtraction
+Starting with 869, if you subtract 434, what is the outcome? # subtraction
+What is the result when 743 is subtracted from 1196? # subtraction
+If you have 1314 and take away 986, what is the answer? # subtraction
+Subtract 356 from 583. What is the result? # subtraction
+You had 423, and now you subtract 196. What is the remaining value? # subtraction
+If 427 is subtracted from 768, what do you get? # subtraction
+Starting with 1036, if you subtract 582, what is the outcome? # subtraction
+Subtract 569 from 1206. What is the result? # subtraction
+What is the result when 1129 is subtracted from 1433? # subtraction
+If you have 875 and take away 439, what is the answer? # subtraction
+Subtract 297 from 650. What is the result? # subtraction
+From 1124, subtract 788. What is the remaining amount? # subtraction
+What is the result when 646 is subtracted from 946? # subtraction
+Starting with 1307, if you subtract 1204, what is the outcome? # subtraction
+Subtract 1347 from 1422. What is the result? # subtraction
+If you subtract 882 from 1155, what is the remaining value? # subtraction
+From 596, subtract 322. What is the outcome? # subtraction
+If 494 is subtracted from 823, what do you get? # subtraction
