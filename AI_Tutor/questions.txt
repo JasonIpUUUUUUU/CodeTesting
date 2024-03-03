@@ -301,3 +301,153 @@ Subtract 31 from 48. # subtraction
 Starting with 68, add 9. # addition
 What is 75 minus 38? # subtraction
 80 - 42 = # subtraction
+What is 5 times 3? # multiplication
+12 multiplied by 7 equals? # multiplication
+If you have 8 groups of 4, how many in total? # multiplication
+9 times 6 equals? # multiplication
+20 multiplied by 11 is? # multiplication
+What is the product of 14 and 5? # multiplication
+Multiply 6 by 3. # multiplication
+10 times 2 equals? # multiplication
+If you have 15 bags with 8 apples each, how many apples do you have in total? # multiplication
+What is the result of 17 times 9? # multiplication
+Starting with 25, multiply by 4. # multiplication
+The product of 30 and 7 is? # multiplication
+What is 18 multiplied by 7? # multiplication
+If you take 12 and multiply by 9, what is the result? # multiplication
+32 multiplied by 5 is? # multiplication
+23 times what equals 38? # multiplication
+Multiply 11 by 3. # multiplication
+What is the total when you multiply 21 by 13? # multiplication
+The product of 24 and 9 is? # multiplication
+37 times 8 is? # multiplication
+Multiply 16 by 2. # multiplication
+What is 25 multiplied by 19? # multiplication
+If you have 28 marbles and want to distribute them equally to 5 friends, how many marbles does each friend get? # multiplication
+Multiply 20 by 2 and then subtract 5. # multiplication
+If you start with 40 and multiply by 3, what do you get? # multiplication
+43 times what equals 57? # multiplication
+What is the product when 26 is multiplied by 2? # multiplication
+Multiply 14 by 3. # multiplication
+48 multiplied by 2 is? # multiplication
+What is the result of 40 multiplied by 18? # multiplication
+Multiply 24 by 2. # multiplication
+If you have 50 candies and want to share them equally among 5 friends, how many candies does each friend get? # multiplication
+What do you get when you multiply 46 by 7? # multiplication
+Starting with 49, multiply by 2 and then subtract 16. # multiplication
+If you take 32 and multiply by 3, what is the result? # multiplication
+The product of 38 and 9 is? # multiplication
+54 times what equals 108? # multiplication
+What is 45 multiplied by 21? # multiplication
+Multiply 19 by 2. # multiplication
+If you have 40 pencils and want to distribute them equally to 4 boxes, how many pencils are in each box? # multiplication
+What is the result when you multiply 44 by 6? # multiplication
+59 times what equals 177? # multiplication
+Multiply 28 by 3. # multiplication
+63 multiplied by 2 is? # multiplication
+What is the product when 54 is multiplied by 2? # multiplication
+Multiply 31 by 2. # multiplication
+70 times what equals 140? # multiplication
+Starting with 68, multiply by 2 and then add 9. # multiplication
+What is the result of 75 multiplied by 2? # multiplication
+Multiply 38 by 2. # multiplication
+What is 5 * 3? # multiplication
+12 * 7 = # multiplication
+If you have 8 groups of 4, how many in total? # multiplication
+9 * 6 = # multiplication
+20 * 11 is? # multiplication
+What is the product of 14 and 5? # multiplication
+Multiply 6 by 3. # multiplication
+10 * 2 = # multiplication
+If you have 15 bags with 8 apples each, how many apples do you have in total? # multiplication
+What is the result of 17 * 9? # multiplication
+Starting with 25, multiply by 4. # multiplication
+The product of 30 and 7 is? # multiplication
+What is 18 * 7? # multiplication
+If you take 12 and multiply by 9, what is the result? # multiplication
+32 * 5 is? # multiplication
+23 times what equals 38? # multiplication
+Multiply 11 by 3. # multiplication
+What is the total when you multiply 21 by 13? # multiplication
+The product of 24 and 9 is? # multiplication
+37 * 8 is? # multiplication
+Multiply 16 by 2. # multiplication
+What is 25 * 19? # multiplication
+If you have 28 marbles and want to distribute them equally to 5 friends, how many marbles does each friend get? # multiplication
+Multiply 20 by 2 and then subtract 5. # multiplication
+If you start with 40 and multiply by 3, what do you get? # multiplication
+43 times what equals 57? # multiplication
+What is the product when 26 is multiplied by 2? # multiplication
+Multiply 14 by 3. # multiplication
+48 * 2 is? # multiplication
+What is the result of 40 * 18? # multiplication
+Multiply 24 by 2. # multiplication
+If you have 50 candies and want to share them equally among 5 friends, how many candies does each friend get? # multiplication
+What do you get when you multiply 46 by 7? # multiplication
+Starting with 49, multiply by 2 and then subtract 16. # multiplication
+If you take 32 and multiply by 3, what is the result? # multiplication
+The product of 38 and 9 is? # multiplication
+54 times what equals 108? # multiplication
+What is 45 * 21? # multiplication
+Multiply 19 by 2. # multiplication
+If you have 40 pencils and want to distribute them equally to 4 boxes, how many pencils are in each box? # multiplication
+What is the result when you multiply 44 by 6? # multiplication
+59 times what equals 177? # multiplication
+Multiply 28 by 3. # multiplication
+63 * 2 is? # multiplication
+What is the product when 54 is multiplied by 2? # multiplication
+Multiply 31 by 2. # multiplication
+70 times what equals 140? # multiplication
+Starting with 68, multiply by 2 and then add 9. # multiplication
+What is the result of 75 multiplied by 2? # multiplication
+Multiply 38 by 2. # multiplication
+What is 5 x 3? # multiplication
+12 x 7 = # multiplication
+If you have 8 groups of 4, how many in total? # multiplication
+9 x 6 = # multiplication
+20 x 11 is? # multiplication
+What is the product of 14 and 5? # multiplication
+Multiply 6 by 3. # multiplication
+10 x 2 = # multiplication
+If you have 15 bags with 8 apples each, how many apples do you have in total? # multiplication
+What is the result of 17 x 9? # multiplication
+Starting with 25, multiply by 4. # multiplication
+The product of 30 and 7 is? # multiplication
+What is 18 x 7? # multiplication
+If you take 12 and multiply by 9, what is the result? # multiplication
+32 x 5 is? # multiplication
+23 times what equals 38? # multiplication
+Multiply 11 by 3. # multiplication
+What is the total when you multiply 21 by 13? # multiplication
+The product of 24 and 9 is? # multiplication
+37 x 8 is? # multiplication
+Multiply 16 by 2. # multiplication
+What is 25 x 19? # multiplication
+If you have 28 marbles and want to distribute them equally to 5 friends, how many marbles does each friend get? # multiplication
+Multiply 20 by 2 and then subtract 5. # multiplication
+If you start with 40 and multiply by 3, what do you get? # multiplication
+43 times what equals 57? # multiplication
+What is the product when 26 is multiplied by 2? # multiplication
+Multiply 14 by 3. # multiplication
+48 x 2 is? # multiplication
+What is the result of 40 x 18? # multiplication
+Multiply 24 by 2. # multiplication
+If you have 50 candies and want to share them equally among 5 friends, how many candies does each friend get? # multiplication
+What do you get when you multiply 46 by 7? # multiplication
+Starting with 49, multiply by 2 and then subtract 16. # multiplication
+If you take 32 and multiply by 3, what is the result? # multiplication
+The product of 38 and 9 is? # multiplication
+54 times what equals 108? # multiplication
+What is 45 x 21? # multiplication
+Multiply 19 by 2. # multiplication
+If you have 40 pencils and want to distribute them equally to 4 boxes, how many pencils are in each box? # multiplication
+What is the result when you multiply 44 by 6? # multiplication
+59 times what equals 177? # multiplication
+Multiply 28 by 3. # multiplication
+63 x 2 is? # multiplication
+What is the product when 54 is multiplied by 2? # multiplication
+Multiply 31 by 2. # multiplication
+70 times what equals 140? # multiplication
+Starting with 68, multiply by 2 and then add 9. # multiplication
+What is the result of 75 x 2? # multiplication
+Multiply 38 by 2. # multiplication
