@@ -251,3 +251,53 @@ Subtract 1347 from 1422. What is the result? # subtraction
 If you subtract 882 from 1155, what is the remaining value? # subtraction
 From 596, subtract 322. What is the outcome? # subtraction
 If 494 is subtracted from 823, what do you get? # subtraction
+What is 5 + 3? # addition
+12 - 7 = # subtraction
+What is the sum of 8 and 4? # addition
+9 plus 6 equals? # addition
+20 - 11 = # subtraction
+14 and 5 gives? # addition
+Subtract 6 from 13. # subtraction
+10 - 2 = # subtraction
+If you have 15 apples and gain 8 more, how many do you have now? # addition
+What do you get when you add 17 and 9? # addition
+Starting with 25, subtract 14. # subtraction
+The combination of 30 and 7 is? # addition
+What is 18 plus 7? # addition
+If you take 12 and add 9, what is the result? # addition
+32 - 15 = # subtraction
+23 plus what equals 38? # addition
+Subtract 11 from 27. # subtraction
+What is the total when you add 21 and 13? # addition
+The sum of 24 and 9 is? # addition
+37 - 8 = # subtraction
+Adding 16 to 22 gives? # addition
+What is 25 subtracted by 19? # subtraction
+If you have 28 marbles and lose 5, how many do you have now? # subtraction
+Subtract 20 from 35. # subtraction
+If you start with 40 and add 12, what do you get? # addition
+43 plus what equals 57? # addition
+What is the outcome when 26 is subtracted from 35? # subtraction
+Subtract 14 from 31. # subtraction
+48 - 17 = # subtraction
+What is the sum of 40 and 18? # addition
+Adding 24 to 19 gives? # addition
+If you have 50 candies and give away 11, how many do you have now? # subtraction
+What do you get when you add 46 and 7? # addition
+Starting with 49, subtract 16. # subtraction
+If you take 32 and add 13, what is the result? # addition
+The combination of 38 and 9 is? # addition
+54 - 21 = # subtraction
+What is 45 plus 21? # addition
+Subtract 19 from 36. # subtraction
+If you have 40 pencils and receive 15 more, how many do you have now? # addition
+What is the total when you add 44 and 6? # addition
+59 plus what equals 74? # addition
+Adding 28 to 32 gives? # addition
+63 - 29 = # subtraction
+What is the outcome when 54 is subtracted from 67? # subtraction
+Subtract 31 from 48. # subtraction
+70 plus what equals 87? # addition
+Starting with 68, add 9. # addition
+What is 75 minus 38? # subtraction
+80 - 42 = # subtraction
