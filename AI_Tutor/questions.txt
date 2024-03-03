@@ -1,0 +1,144 @@
+What is 8 + 4? # addition
+Subtract 9 from 15. # subtraction
+Multiply 7 by 3. # multiplication
+Divide 20 by 5. # division
+Calculate the sum of 14 and 6. # addition
+If you have 18 apples and give away 5, how many do you have left? # subtraction
+Solve for x: 2x + 5 = 13. # algebra
+What is the result of 9 squared? # exponentiation
+Subtract 17 from 25. # subtraction
+If a rectangle has a length of 12 units and a width of 8 units, what is its area? # geometry
+Add the fractions 1/3 and 2/5. # addition
+If a car travels at a speed of 60 miles per hour, how far will it travel in 3 hours? # multiplication
+Solve the equation: 4y - 7 = 5. # algebra
+Multiply 9 by the product of 3 and 2. # multiplication
+What is the square root of 64? # exponentiation
+If a box contains 24 chocolates and you take away 8, how many chocolates are left? # subtraction
+Calculate the area of a circle with a radius of 5 units. # geometry
+Add the decimals 3.5 and 2.2. # decimals
+Divide 50 by the sum of 10 and 5. # division
+Subtract 3.14 from 5. # subtraction
+What is -7 plus 10? # negatives
+Multiply -4 by 6. # negatives
+Divide 12 by -3. # negatives
+Add -2 and 8. # negatives
+Calculate the product of -5 and -3. # multiplication
+What is -20 divided by 4? # division
+Add the negative numbers -8 and -5. # negatives
+Subtract 2 from -1. # negatives
+Divide -15 by 3. # negatives
+Multiply -2 by the sum of 4 and 6. # negatives
+Calculate the area of a square with side length 7. # geometry
+Subtract 2.5 from 8. # subtraction
+What is the square of -3? # exponentiation
+Divide 10 by -2. # division
+Multiply the negative number -6 by 4. # multiplication
+What is 1.5 plus 2.5? # decimals
+Add -2.5 and 1.5. # negatives
+Multiply 3.5 by 2. # decimals
+Calculate the product of -1.5 and -4. # negatives
+Divide 9 by 1.5. # division
+Subtract 0.5 from 4. # subtraction
+What is the square root of 25. # exponentiation
+Add -0.75 and 1.25. # negatives
+Divide 6 by -1.5. # negatives
+Subtract 5.2 from 8. # subtraction
+Multiply -3.5 by 2. # negatives
+Calculate the area of a rectangle with length 9 and width 4. # geometry
+What is -16 divided by -4? # negatives
+What is 1 + 1 # addition
+what is 2 - 1 # subtraction
+what is 3 * 6 # multiplication
+what is 50 x 7 # multiplication
+what is 30 / 5 # division
+what is 3 ^ 4 # exponentiation
+state 3 + 6 # exponentiation
+1 + 1 = # addition
+2 + 3 = # addition
+4 + 7 = # addition
+6 + 2 = # addition
+9 + 5 = # addition
+12 + 8 = # addition
+3 + 2 = # addition
+7 + 4 = # addition
+10 + 6 = # addition
+5 + 3 = # addition
+15 + 9 = # addition
+11 + 7 = # addition
+13 + 4 = # addition
+8 + 2 = # addition
+6 + 9 = # addition
+14 + 5 = # addition
+18 + 3 = # addition
+20 + 11 = # addition
+16 + 6 = # addition
+22 + 8 = # addition
+25 + 4 = # addition
+17 + 7 = # addition
+21 + 13 = # addition
+19 + 9 = # addition
+23 + 5 = # addition
+30 + 8 = # addition
+14 + 12 = # addition
+27 + 6 = # addition
+31 + 9 = # addition
+24 + 17 = # addition
+29 + 8 = # addition
+33 + 11 = # addition
+26 + 14 = # addition
+35 + 6 = # addition
+32 + 13 = # addition
+38 + 9 = # addition
+36 + 7 = # addition
+40 + 12 = # addition
+44 + 6 = # addition
+41 + 18 = # addition
+39 + 15 = # addition
+43 + 10 = # addition
+46 + 7 = # addition
+50 + 11 = # addition
+48 + 13 = # addition
+45 + 21 = # addition
+49 + 16 = # addition
+47 + 19 = # addition
+3 plus 4 = # addition
+8 added to 6 = # addition
+11 and 9 equals? # addition
+5 combined with 7 gives? # addition
+The sum of 14 and 3 is? # addition
+What is the result of 20 plus 8? # addition
+9 plus what equals 15? # addition
+If you have 6 apples and get 2 more, how many do you have now? # addition
+Adding 12 to 5 gives? # addition
+What is the total when you add 16 and 7? # addition
+The combination of 25 and 4 is? # addition
+If you start with 18 and add 6, what do you get? # addition
+7 plus 9 equals? # addition
+The sum of 14 and 11 is? # addition
+If you take 3 and add 10, what is the result? # addition
+Adding 8 to 14 gives? # addition
+What is the result of 22 plus 13? # addition
+12 plus what equals 19? # addition
+If you have 27 marbles and gain 6 more, how many do you have in total? # addition
+The sum of 31 and 9 is? # addition
+What do you get when you add 24 and 17? # addition
+If you start with 29 and add 8, what do you get? # addition
+6 plus 14 equals? # addition
+Adding 27 to 6 gives? # addition
+What is the total when you add 33 and 11? # addition
+The combination of 26 and 15 is? # addition
+If you have 35 pencils and receive 6 more, how many do you have now? # addition
+7 plus what equals 32? # addition
+What is the result of 38 plus 9? # addition
+If you take 36 and add 7, what is the result? # addition
+Adding 40 to 12 gives? # addition
+What is the sum of 44 and 6? # addition
+The total when you add 41 and 18 is? # addition
+If you start with 39 and add 15, what do you get? # addition
+What do you get when you add 43 and 10? # addition
+The sum of 46 and 7 is? # addition
+Adding 50 to 11 gives? # addition
+What is the result of 48 plus 13? # addition
+If you have 45 candies and receive 21 more, how many do you have now? # addition
+The combination of 49 and 16 is? # addition
+What is the total when you add 47 and 19? # addition
