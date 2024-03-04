@@ -451,3 +451,257 @@ Multiply 31 by 2. # multiplication
 Starting with 68, multiply by 2 and then add 9. # multiplication
 What is the result of 75 x 2? # multiplication
 Multiply 38 by 2. # multiplication
+What is 15 divided by 3? # division
+48 / 6 = # division
+If you have 36 apples and want to share them equally among 6 friends, how many apples does each friend get? # division
+What is the result of 63 divided by 9? # division
+28 divided by what equals 4? # division
+Divide 55 by 11. # division
+If you start with 90 and divide by 5, what do you get? # division
+The quotient of 72 and 8 is? # division
+What is 54 divided by 6? # division
+If you have 80 marbles and want to distribute them equally to 4 friends, how many marbles does each friend get? # division
+Divide 45 by 9. # division
+If you have 125 candies and share them equally among 5 friends, how many candies does each friend get? # division
+What is the result of 84 divided by 7? # division
+The quotient of 35 and 5 is? # division
+Divide 96 by 12. # division
+If you start with 60 and divide by 3, what do you get? # division
+What is 42 divided by 7? # division
+Divide 99 by what equals 11? # division
+If you have 64 pencils and want to distribute them equally to 8 boxes, how many pencils are in each box? # division
+The result of 80 divided by 10 is? # division
+Divide 56 by 8. # division
+If you have 120 marbles and want to distribute them equally to 6 friends, how many marbles does each friend get? # division
+What is the quotient of 81 and 9? # division
+Divide 50 by 5. # division
+If you start with 72 and divide by 9, what do you get? # division
+The result of 66 divided by 6 is? # division
+Divide 110 by what equals 11? # division
+If you have 63 candies and share them equally among 7 friends, how many candies does each friend get? # division
+What is the quotient of 49 and 7? # division
+Divide 84 by 12. # division
+If you start with 96 and divide by 8, what do you get? # division
+The result of 55 divided by 5 is? # division
+Divide 81 by what equals 9? # division
+What is 60 divided by 6? # division
+If you have 108 marbles and want to distribute them equally to 9 friends, how many marbles does each friend get? # division
+Divide 40 by 8. # division
+If you start with 88 and divide by 11, what do you get? # division
+What is the quotient of 72 and 9? # division
+Divide 120 by 10. # division
+If you have 96 candies and share them equally among 6 friends, how many candies does each friend get? # division
+The result of 50 divided by 5 is? # division
+Divide 72 by 8. # division
+If you start with 54 and divide by 6, what do you get? # division
+What is the quotient of 63 and 7? # division
+Divide 80 by 10. # division
+If you have 110 marbles and want to distribute them equally to 5 friends, how many marbles does each friend get? # division
+The result of 84 divided by 12 is? # division
+Divide 96 by 8. # division
+If you start with 55 and divide by 5, what do you get? # division
+What is the quotient of 81 and 9? # division
+Divide 60 by 6. # division
+If you have 108 candies and share them equally among 9 friends, how many candies does each friend get? # division
+The result of 40 divided by 8 is? # division
+Divide 88 by 11. # division
+What is 15 / 3? # division
+21 / 7 = # division
+If you have 45 apples and want to distribute them equally among 9 friends, how many apples does each friend get? # division
+36 / 6 = # division
+70 / 10 is? # division
+What is the result of 81 / 9? # division
+Divide 64 by 8. # division
+25 / 5 = # division
+If you have 98 candies and want to share them equally among 7 friends, how many candies does each friend get? # division
+What is 45 / 9? # division
+Starting with 120, divide by 5. # division
+The quotient of 144 and 12 is? # division
+What is 63 divided by 7? # division
+If you take 56 and divide by 8, what is the result? # division
+84 / 7 is? # division
+Divide 66 by 11. # division
+If you have 105 marbles and want to distribute them equally to 15 friends, how many marbles does each friend get? # division
+The result of 72 / 9 is? # division
+77 / 11 = # division
+Divide 90 by 10. # division
+What is 54 divided by 6? # division
+If you start with 80 and divide by 4, what do you get? # division
+The quotient of 110 and 5 is? # division
+What is the result when 126 is divided by 14? # division
+Divide 96 by 8. # division
+If you have 63 pencils and want to distribute them equally to 9 boxes, how many pencils are in each box? # division
+What is 88 / 11? # division
+Starting with 99, divide by 9. # division
+If you take 105 and divide by 7, what is the result? # division
+The quotient of 120 and 6 is? # division
+What is 64 / 8? # division
+Divide 77 by 11. # division
+If you have 144 candies and want to share them equally among 12 friends, how many candies does each friend get? # division
+What is 63 / 9? # division
+The result of 81 / 9 is? # division
+Divide 66 by 11. # division
+If you start with 90 and divide by 10, what do you get? # division
+The quotient of 54 and 6 is? # division
+What is 88 / 11? # division
+If you have 99 pencils and want to distribute them equally to 9 boxes, how many pencils are in each box? # division
+Starting with 64, divide by 8. # division
+The result of 77 / 11 is? # division
+Divide 105 by 7. # division
+What is 120 divided by 6? # division
+If you take 126 and divide by 14, what is the result? # division
+The quotient of 96 and 8 is? # division
+What is 63 / 9? # division
+Divide 81 by 9. # division
+Starting with 66, divide by 11. # division
+If you have 90 marbles and want to distribute them equally to 10 friends, how many marbles does each friend get? # division
+What is 5 * 3? # multiplication
+12 / 4 = # division
+If you have 8 groups of 4, how many in total? # multiplication
+9 * 6 = # multiplication
+20 / 2 is? # division
+What is the result of 14 * 5? # multiplication
+Multiply 6 by 3. # multiplication
+10 / 2 = # division
+If you have 15 bags with 8 apples each, how many apples do you have in total? # multiplication
+What is 17 * 9? # multiplication
+Starting with 25, divide by 5. # division
+The product of 30 and 7 is? # multiplication
+What is 18 / 3? # division
+If you take 12 and multiply by 9, what is the result? # multiplication
+32 / 4 = # division
+23 times what equals 46? # multiplication
+Multiply 11 by 3. # multiplication
+What is the total when you multiply 21 by 2? # multiplication
+The result of 24 / 4 is? # division
+37 * 2 = # multiplication
+Multiply 16 by 2. # multiplication
+What is 25 / 5? # division
+If you have 28 marbles and want to distribute them equally to 4 friends, how many marbles does each friend get? # division
+Multiply 20 by 2 and then divide by 5. # multiplication and division
+If you start with 40 and multiply by 3, what do you get? # multiplication
+43 / 2 = # division
+What is the product when 26 is multiplied by 2 and then divided by 2? # multiplication and division
+Multiply 14 by 3 and then divide by 3. # multiplication and division
+48 / 2 = # division
+What is the result of 40 * 2? # multiplication
+Multiply 24 by 2 and then divide by 4. # multiplication and division
+If you have 50 candies and want to share them equally among 5 friends, how many candies does each friend get? # division
+What do you get when you multiply 46 by 2 and then divide by 2? # multiplication and division
+Starting with 49, multiply by 2 and then subtract 16. # multiplication
+If you take 32 and multiply by 3, what is the result? # multiplication
+The product of 38 and 9 is? # multiplication
+54 * 2 = # multiplication
+What is 45 / 3? # division
+Multiply 19 by 2 and then divide by 2. # multiplication and division
+If you have 40 pencils and want to distribute them equally to 4 boxes, how many pencils are in each box? # division
+What is the result when you multiply 44 by 2 and then divide by 2? # multiplication and division
+59 / 1 = # division
+Multiply 28 by 3 and then divide by 3. # multiplication and division
+63 * 2 = # multiplication
+What is the product when 54 is multiplied by 2 and then divided by 2? # multiplication and division
+Multiply 31 by 2 and then divide by 2. # multiplication and division
+70 / 2 = # division
+Starting with 68, multiply by 2 and then add 9. # multiplication
+What is the result of 75 * 2 and then divided by 2? # multiplication and division
+Multiply 38 by 2 and then divide by 2. # multiplication and division
+3x - 2 = 2x + 5 # algebra
+4y + 7 = 2y + 15 # algebra
+5a + 9 = 3a + 12 # algebra
+2b - 3 = b + 6 # algebra
+6c + 4 = 2c + 11 # algebra
+4x + 8 = 2x + 12 # algebra
+3y - 5 = 2y + 9 # algebra
+2a + 7 = a + 11 # algebra
+3b + 2 = 2b + 9 # algebra
+5c - 1 = 2c + 6 # algebra
+x + 6 = 2x + 3 # algebra
+4y + 10 = 2y + 15 # algebra
+3a - 4 = 2a + 5 # algebra
+2b + 3 = b + 8 # algebra
+6c - 2 = 2c + 7 # algebra
+2x + 5 = x + 7 # algebra
+4y - 8 = 2y + 10 # algebra
+a - 3 = 2a + 4 # algebra
+2b - 1 = 3b + 5 # algebra
+5c + 6 = 2c - 1 # algebra
+x - 3 = 2x + 4 # algebra
+4y + 6 = 2y + 12 # algebra
+3a + 1 = 2a + 8 # algebra
+b - 2 = 2b + 3 # algebra
+6c + 7 = 2c + 10 # algebra
+3x + 2 = 2x + 6 # algebra
+7y - 4 = 2y + 9 # algebra
+4a - 5 = 2a + 7 # algebra
+2b + 6 = b + 10 # algebra
+5c - 3 = 2c + 4 # algebra
+x + 5 = 2x + 3 # algebra
+4y - 9 = 2y + 15 # algebra
+a - 4 = 2a + 3 # algebra
+3b + 2 = 2b + 9 # algebra
+6c + 5 = 2c + 8 # algebra
+2x + 3 = x + 5 # algebra
+5y - 7 = 2y + 10 # algebra
+3a + 4 = 2a + 9 # algebra
+b + 2 = 2b + 7 # algebra
+7c - 5 = 2c + 6 # algebra
+x - 2 = 2x + 3 # algebra
+4y + 4 = 2y + 9 # algebra
+2a + 8 = 3a + 5 # algebra
+3b - 2 = 2b + 6 # algebra
+5c + 3 = 2c + 9 # algebra
+4x - 3 = 2x + 6 # algebra
+6y + 2 = 2y + 10 # algebra
+a + 4 = 2a + 3 # algebra
+2b - 6 = b + 4 # algebra
+7c + 3 = 2c + 8 # algebra
+3x + 7 = 16 # algebra
+2y - 5 = 12 # algebra
+4a + 9 = 21 # algebra
+b + 4 = 10 # algebra
+5c - 3 = 22 # algebra
+2x + 6 = 14 # algebra
+3y + 5 = 26 # algebra
+2a - 8 = 14 # algebra
+4b + 3 = 19 # algebra
+6c + 2 = 32 # algebra
+x + 5 = 9 # algebra
+4y - 2 = 18 # algebra
+a + 3 = 15 # algebra
+3b + 6 = 21 # algebra
+5c + 7 = 29 # algebra
+x - 3 = 7 # algebra
+2y + 8 = 22 # algebra
+a - 2 = 13 # algebra
+3b - 1 = 14 # algebra
+6c - 4 = 26 # algebra
+x + 4 = 12 # algebra
+4y + 5 = 29 # algebra
+a + 7 = 19 # algebra
+b - 3 = 6 # algebra
+6c + 9 = 45 # algebra
+3x - 2 = 16 # algebra
+7y + 3 = 31 # algebra
+4a + 5 = 25 # algebra
+b + 6 = 14 # algebra
+5c - 2 = 33 # algebra
+x - 5 = 7 # algebra
+4y + 10 = 34 # algebra
+a + 4 = 13 # algebra
+3b - 2 = 16 # algebra
+6c + 7 = 37 # algebra
+2x + 3 = 11 # algebra
+5y - 8 = 22 # algebra
+3a + 6 = 21 # algebra
+b + 2 = 10 # algebra
+7c - 5 = 34 # algebra
+x - 2 = 9 # algebra
+4y + 4 = 26 # algebra
+2a + 9 = 23 # algebra
+3b - 4 = 14 # algebra
+5c + 3 = 28 # algebra
+4x - 3 = 11 # algebra
+6y + 2 = 23 # algebra
+a + 5 = 11 # algebra
+2b - 6 = 5 # algebra
+7c + 3 = 30 # algebra
