@@ -7,7 +7,6 @@ If you have 18 apples and give away 5, how many do you have left? # subtraction
 Solve for x: 2x + 5 = 13. # algebra
 What is the result of 9 squared? # exponentiation
 Subtract 17 from 25. # subtraction
-If a rectangle has a length of 12 units and a width of 8 units, what is its area? # geometry
 Add the fractions 1/3 and 2/5. # addition
 If a car travels at a speed of 60 miles per hour, how far will it travel in 3 hours? # multiplication
 Solve the equation: 4y - 7 = 5. # algebra
@@ -28,7 +27,6 @@ Add the negative numbers -8 and -5. # negatives
 Subtract 2 from -1. # negatives
 Divide -15 by 3. # negatives
 Multiply -2 by the sum of 4 and 6. # negatives
-Calculate the area of a square with side length 7. # geometry
 Subtract 2.5 from 8. # subtraction
 What is the square of -3? # exponentiation
 Divide 10 by -2. # division
@@ -44,7 +42,6 @@ Add -0.75 and 1.25. # negatives
 Divide 6 by -1.5. # negatives
 Subtract 5.2 from 8. # subtraction
 Multiply -3.5 by 2. # negatives
-Calculate the area of a rectangle with length 9 and width 4. # geometry
 What is -16 divided by -4? # negatives
 What is 1 + 1 # addition
 what is 2 - 1 # subtraction
@@ -903,3 +900,301 @@ Perform the subtraction: 123456 - 987654. # subtraction
 98765 - 432109 = # subtraction
 1234 - 567890 = # subtraction
 789012 - 345678 = # subtraction
+What is 203 + 48721? # addition
+What is 4562 + 78943? # addition
+What is 123456 + 7890? # addition
+What is 987654 + 12345? # addition
+What is 56789 + 43210? # addition
+What is 789012 + 34567? # addition
+What is 45678 + 12345? # addition
+What is 234567 + 876543? # addition
+What is 98765 + 432109? # addition
+What is 1234 + 567890? # addition
+What is 789012 + 345678? # addition
+What is 123456 + 789012? # addition
+What is 987654 + 123456? # addition
+What is 234567 + 87654? # addition
+What is 987654 + 234567? # addition
+What is 123456 + 78901? # addition
+What is 56789 + 4321? # addition
+What is 345678 + 90123? # addition
+What is 123456 + 789012? # addition
+What is 98765 + 432109? # addition
+What is 23456 + 876543? # addition
+What is 789012 + 34567? # addition
+What is 123456 + 7890? # addition
+What is 56789 + 43210? # addition
+What is 789012 + 34567? # addition
+What is 45678 + 12345? # addition
+What is 234567 + 876543? # addition
+What is 98765 + 432109? # addition
+What is 1234 + 567890? # addition
+What is 789012 + 345678? # addition
+What is 123456 + 789012? # addition
+What is 987654 + 123456? # addition
+What is 234567 + 87654? # addition
+What is 987654 + 234567? # addition
+What is 123456 + 78901? # addition
+What is 56789 + 4321? # addition
+What is 345678 + 90123? # addition
+What is 123456 + 789012? # addition
+What is 98765 + 432109? # addition
+What is 23456 + 876543? # addition
+What is 789012 + 34567? # addition
+What is 123456 + 7890? # addition
+What is 56789 + 43210? # addition
+What is 789012 + 34567? # addition
+What is 45678 + 12345? # addition
+What is 234567 + 876543? # addition
+What is 98765 + 432109? # addition
+What is 1234 + 567890? # addition
+What is 789012 + 345678? # addition
+What is 203 - 48721? # subtraction
+What is 4562 - 78943? # subtraction
+What is 123456 - 7890? # subtraction
+What is 987654 - 12345? # subtraction
+What is 56789 - 43210? # subtraction
+What is 789012 - 34567? # subtraction
+What is 45678 - 12345? # subtraction
+What is 234567 - 876543? # subtraction
+What is 98765 - 432109? # subtraction
+What is 1234 - 567890? # subtraction
+What is 789012 - 345678? # subtraction
+What is 123456 - 789012? # subtraction
+What is 987654 - 123456? # subtraction
+What is 234567 - 87654? # subtraction
+What is 987654 - 234567? # subtraction
+What is 123456 - 78901? # subtraction
+What is 56789 - 4321? # subtraction
+What is 345678 - 90123? # subtraction
+What is 123456 - 789012? # subtraction
+What is 98765 - 432109? # subtraction
+What is 23456 - 876543? # subtraction
+What is 789012 - 34567? # subtraction
+What is 123456 - 7890? # subtraction
+What is 56789 - 43210? # subtraction
+What is 789012 - 34567? # subtraction
+What is 45678 - 12345? # subtraction
+What is 234567 - 876543? # subtraction
+What is 98765 - 432109? # subtraction
+What is 1234 - 567890? # subtraction
+What is 789012 - 345678? # subtraction
+What is 123456 - 789012? # subtraction
+What is 987654 - 123456? # subtraction
+What is 234567 - 87654? # subtraction
+What is 987654 - 234567? # subtraction
+What is 123456 - 78901? # subtraction
+What is 56789 - 4321? # subtraction
+What is 345678 - 90123? # subtraction
+What is 123456 - 789012? # subtraction
+What is 98765 - 432109? # subtraction
+What is 23456 - 876543? # subtraction
+What is 789012 - 34567? # subtraction
+What is 123456 - 7890? # subtraction
+What is 56789 - 43210? # subtraction
+What is 789012 - 34567? # subtraction
+What is 45678 - 12345? # subtraction
+What is 234567 - 876543? # subtraction
+What is 98765 - 432109? # subtraction
+What is 1234 - 567890? # subtraction
+What is 789012 - 345678? # subtraction
+Solve for x: 3x + 7 = 16 # algebra
+If 2y - 5 = 12, find y. # algebra
+Express 4a + 9 in terms of a. # algebra
+Simplify b + 4 - 10. # algebra
+Solve for c in 5c - 3 = 22. # algebra
+Combine like terms in 2x + 6 - 14. # algebra
+Solve the equation 3y + 5 = 26 for y. # algebra
+If 2a - 8 = 14, determine the value of a. # algebra
+Find b when 4b + 3 = 19. # algebra
+Solve the equation 6c + 2 = 32 for c. # algebra
+Express x + 5 - 9 as a single term. # algebra
+Simplify 4y - 2 - 18. # algebra
+Solve for a in a + 3 = 15. # algebra
+If 3b + 6 = 21, determine the value of b. # algebra
+Find c when 5c + 7 = 29. # algebra
+Solve the equation x - 3 = 7 for x. # algebra
+Express 2y + 8 - 22 in simplified form. # algebra
+Simplify a - 2 - 13. # algebra
+Find b when 3b - 1 = 14. # algebra
+Solve for c in 6c - 4 = 26. # algebra
+Determine x in x + 4 - 12. # algebra
+Simplify 4y + 5 - 29. # algebra
+Solve for a in a + 7 = 19. # algebra
+If b - 3 = 6, find b. # algebra
+Express 6c + 9 - 45 in simplified form. # algebra
+Solve for x in 3x - 2 = 16. # algebra
+Find y when 7y + 3 = 31. # algebra
+Determine a in 4a + 5 = 25. # algebra
+Solve the equation b + 6 = 14 for b. # algebra
+Express 5c - 2 - 33 in simplified form. # algebra
+Solve for x in x - 5 = 7. # algebra
+If 4y + 10 = 34, find y. # algebra
+Find a when a + 4 = 13. # algebra
+Solve the equation 3b - 2 = 16 for b. # algebra
+Determine c in 6c + 7 - 37. # algebra
+Express 2x + 3 - 11 in simplified form. # algebra
+Simplify 5y - 8 - 22. # algebra
+Solve for a in 3a + 6 = 21. # algebra
+If b + 2 = 10, find b. # algebra
+Determine c in 7c - 5 - 34. # algebra
+Express x - 2 - 9 in simplified form. # algebra
+Simplify 4y + 4 - 26. # algebra
+Solve for a in 2a + 9 = 23. # algebra
+If 3b - 4 = 14, find b. # algebra
+Determine c in 5c + 3 - 28. # algebra
+Solve the equation 4x - 3 = 11 for x. # algebra
+Express 6y + 2 - 23 in simplified form. # algebra
+Simplify a + 5 - 11. # algebra
+Find b when 2b - 6 = 5. # algebra
+Solve the equation 7c + 3 = 30 for c. # algebra
+What is the area of a square with a side length of 5 units? # Square Area
+Find the area of a square with a side length of 8 meters. # Square Area
+Calculate the area of a square garden with a side length of 12 feet. # Square Area
+Determine the area of a square room with a side length of 10 yards. # Square Area
+What is the area of a square rug with a side length of 6 feet? # Square Area
+Find the area of a square patio with a side length of 15 meters. # Square Area
+Calculate the area of a square field with a side length of 7 kilometers. # Square Area
+Determine the area of a square tile with a side length of 9 inches. # Square Area
+What is the area of a square plot with a side length of 11 units? # Square Area
+Find the area of a square pool with a side length of 14 feet. # Square Area
+Calculate the area of a square kitchen tile with a side length of 16 inches. # Square Area
+Determine the area of a square whiteboard with a side length of 13 centimeters. # Square Area
+What is the area of a square bookshelf with a side length of 20 inches? # Square Area
+Find the area of a square tabletop with a side length of 18 centimeters. # Square Area
+Calculate the area of a square garden bed with a side length of 25 meters. # Square Area
+Determine the area of a square poster with a side length of 22 inches. # Square Area
+What is the area of a square classroom floor with a side length of 30 feet? # Square Area
+Find the area of a square balcony with a side length of 27 meters. # Square Area
+Calculate the area of a square window with a side length of 35 inches. # Square Area
+Determine the area of a square desk with a side length of 32 centimeters. # Square Area
+What is the area of a square patio table with a side length of 40 inches? # Square Area
+Find the area of a square carpet with a side length of 37 feet. # Square Area
+Calculate the area of a square chalkboard with a side length of 45 centimeters. # Square Area
+Determine the area of a square shelf with a side length of 42 inches. # Square Area
+What is the area of a square rug with a side length of 50 meters? # Square Area
+Find the area of a square garden with a side length of 47 units. # Square Area
+Calculate the area of a square room with a side length of 55 feet. # Square Area
+Determine the area of a square dining table with a side length of 52 centimeters. # Square Area
+What is the area of a square playmat with a side length of 60 inches? # Square Area
+Find the area of a square banner with a side length of 57 centimeters. # Square Area
+Calculate the area of a square shelf with a side length of 65 inches. # Square Area
+Determine the area of a square wall clock with a side length of 62 centimeters. # Square Area
+What is the area of a square rug with a side length of 70 meters? # Square Area
+Find the area of a square garden bed with a side length of 67 units. # Square Area
+Calculate the area of a square kitchen tile with a side length of 75 inches. # Square Area
+Determine the area of a square patio with a side length of 72 meters. # Square Area
+What is the area of a square tabletop with a side length of 80 centimeters? # Square Area
+Find the area of a square poster with a side length of 77 inches. # Square Area
+Calculate the area of a square classroom floor with a side length of 85 feet. # Square Area
+Determine the area of a square balcony with a side length of 82 meters. # Square Area
+What is the area of a square window with a side length of 90 inches? # Square Area
+Find the area of a square desk with a side length of 87 centimeters. # Square Area
+Calculate the area of a square patio table with a side length of 95 inches. # Square Area
+Determine the area of a square carpet with a side length of 92 feet. # Square Area
+What is the area of a square chalkboard with a side length of 100 centimeters? # Square Area
+Find the area of a square shelf with a side length of 97 inches. # Square Area
+Calculate the area of a square rug with a side length of 105 meters. # Square Area
+Determine the area of a square garden with a side length of 102 units. # Square Area
+What is the area of a square bookcase with a side length of 110 inches? # Square Area
+Find the area of a square poster board with a side length of 107 centimeters. # Square Area
+What is the area of a rectangle with length 5 units and width 8 units? # Rectangle Area
+Find the area of a rectangle with length 12 meters and width 7 meters. # Rectangle Area
+Calculate the area of a rectangular garden with length 10 feet and width 15 feet. # Rectangle Area
+Determine the area of a room with length 8 yards and width 6 yards. # Rectangle Area
+What is the area of a rectangular rug with length 6 feet and width 9 feet? # Rectangle Area
+Find the area of a rectangular patio with length 15 meters and width 10 meters. # Rectangle Area
+Calculate the area of a rectangular field with length 7 kilometers and width 4 kilometers. # Rectangle Area
+Determine the area of a tile with length 9 inches and width 12 inches. # Rectangle Area
+What is the area of a rectangular plot with length 11 units and width 14 units? # Rectangle Area
+Find the area of a rectangular pool with length 14 feet and width 8 feet. # Rectangle Area
+Calculate the area of a rectangular kitchen tile with length 16 inches and width 8 inches. # Rectangle Area
+Determine the area of a whiteboard with length 13 centimeters and width 18 centimeters. # Rectangle Area
+What is the area of a bookshelf with length 20 inches and width 16 inches? # Rectangle Area
+Find the area of a rectangular tabletop with length 18 centimeters and width 25 centimeters. # Rectangle Area
+Calculate the area of a garden bed with length 25 meters and width 18 meters. # Rectangle Area
+Determine the area of a poster with length 22 inches and width 30 inches. # Rectangle Area
+What is the area of a classroom floor with length 30 feet and width 20 feet? # Rectangle Area
+Find the area of a rectangular balcony with length 27 meters and width 22 meters. # Rectangle Area
+Calculate the area of a rectangular window with length 35 inches and width 24 inches. # Rectangle Area
+Determine the area of a desk with length 32 centimeters and width 28 centimeters. # Rectangle Area
+What is the area of a patio table with length 40 inches and width 32 inches? # Rectangle Area
+Find the area of a rectangular carpet with length 37 feet and width 29 feet. # Rectangle Area
+Calculate the area of a chalkboard with length 45 centimeters and width 40 centimeters. # Rectangle Area
+Determine the area of a shelf with length 42 inches and width 35 inches. # Rectangle Area
+What is the area of a rug with length 50 meters and width 42 meters? # Rectangle Area
+Find the area of a rectangular garden with length 47 units and width 38 units. # Rectangle Area
+Calculate the area of a room with length 55 feet and width 42 feet. # Rectangle Area
+Determine the area of a dining table with length 52 centimeters and width 48 centimeters. # Rectangle Area
+What is the area of a playmat with length 60 inches and width 50 inches? # Rectangle Area
+Find the area of a rectangular banner with length 57 centimeters and width 60 centimeters. # Rectangle Area
+Calculate the area of a shelf with length 65 inches and width 60 inches. # Rectangle Area
+Determine the area of a wall clock with length 62 centimeters and width 70 centimeters. # Rectangle Area
+What is the area of a rug with length 70 meters and width 60 meters? # Rectangle Area
+Find the area of a rectangular garden bed with length 67 units and width 62 units. # Rectangle Area
+Calculate the area of a kitchen tile with length 75 inches and width 68 inches. # Rectangle Area
+Determine the area of a patio with length 72 meters and width 75 meters. # Rectangle Area
+What is the area of a tabletop with length 80 centimeters and width 72 centimeters? # Rectangle Area
+Find the area of a poster with length 77 inches and width 80 inches. # Rectangle Area
+Calculate the area of a classroom floor with length 85 feet and width 80 feet. # Rectangle Area
+Determine the area of a balcony with length 82 meters and width 90 meters. # Rectangle Area
+What is the area of a window with length 90 inches and width 84 inches? # Rectangle Area
+Find the area of a desk with length 87 centimeters and width 92 centimeters. # Rectangle Area
+Calculate the area of a patio table with length 95 inches and width 88 inches. # Rectangle Area
+Determine the area of a carpet with length 92 feet and width 95 feet. # Rectangle Area
+What is the area of a chalkboard with length 100 centimeters and width 92 centimeters? # Rectangle Area
+Find the area of a shelf with length 97 inches and width 100 inches. # Rectangle Area
+Calculate the area of a rug with length 105 meters and width 100 meters. # Rectangle Area
+Determine the area of a garden with length 102 units and width 110 units. # Rectangle Area
+What is the area of a bookcase with length 110 inches and width 105 inches? # Rectangle Area
+Find the area of a poster board with length 107 centimeters and width 120 centimeters. # Rectangle Area
+What is the area of a triangle with a base of 5 units and a height of 8 units? # Triangle Area
+Find the area of a triangle with a base of 12 meters and a height of 7 meters. # Triangle Area
+Calculate the area of a triangular garden with a base of 10 feet and a height of 15 feet. # Triangle Area
+Determine the area of a room with a triangular floor, having a base of 8 yards and a height of 6 yards. # Triangle Area
+What is the area of a triangular rug with a base of 6 feet and a height of 9 feet? # Triangle Area
+Find the area of a triangular patio with a base of 15 meters and a height of 10 meters. # Triangle Area
+Calculate the area of a triangular field with a base of 7 kilometers and a height of 4 kilometers. # Triangle Area
+Determine the area of a triangular tile with a base of 9 inches and a height of 12 inches. # Triangle Area
+What is the area of a triangular plot with a base of 11 units and a height of 14 units? # Triangle Area
+Find the area of a triangular pool with a base of 14 feet and a height of 8 feet. # Triangle Area
+Calculate the area of a triangular kitchen tile with a base of 16 inches and a height of 8 inches. # Triangle Area
+Determine the area of a triangular whiteboard with a base of 13 centimeters and a height of 18 centimeters. # Triangle Area
+What is the area of a triangular bookshelf with a base of 20 inches and a height of 16 inches? # Triangle Area
+Find the area of a triangular tabletop with a base of 18 centimeters and a height of 25 centimeters. # Triangle Area
+Calculate the area of a triangular garden bed with a base of 25 meters and a height of 18 meters. # Triangle Area
+Determine the area of a triangular poster with a base of 22 inches and a height of 30 inches. # Triangle Area
+What is the area of a triangular classroom floor with a base of 30 feet and a height of 20 feet? # Triangle Area
+Find the area of a triangular balcony with a base of 27 meters and a height of 22 meters. # Triangle Area
+Calculate the area of a triangular window with a base of 35 inches and a height of 24 inches. # Triangle Area
+Determine the area of a triangular desk with a base of 32 centimeters and a height of 28 centimeters. # Triangle Area
+What is the area of a triangular patio table with a base of 40 inches and a height of 32 inches? # Triangle Area
+Find the area of a triangular carpet with a base of 37 feet and a height of 29 feet. # Triangle Area
+Calculate the area of a triangular chalkboard with a base of 45 centimeters and a height of 40 centimeters. # Triangle Area
+Determine the area of a triangular shelf with a base of 42 inches and a height of 35 inches. # Triangle Area
+What is the area of a triangular rug with a base of 50 meters and a height of 42 meters? # Triangle Area
+Find the area of a triangular garden with a base of 47 units and a height of 38 units. # Triangle Area
+Calculate the area of a triangular room with a base of 55 feet and a height of 42 feet. # Triangle Area
+Determine the area of a triangular dining table with a base of 52 centimeters and a height of 48 centimeters. # Triangle Area
+What is the area of a triangular playmat with a base of 60 inches and a height of 50 inches? # Triangle Area
+Find the area of a triangular banner with a base of 57 centimeters and a height of 60 centimeters. # Triangle Area
+Calculate the area of a triangular shelf with a base of 65 inches and a height of 60 inches. # Triangle Area
+Determine the area of a triangular wall clock with a base of 62 centimeters and a height of 70 centimeters. # Triangle Area
+What is the area of a triangular rug with a base of 70 meters and a height of 60 meters? # Triangle Area
+Find the area of a triangular garden bed with a base of 67 units and a height of 62 units. # Triangle Area
+Calculate the area of a triangular kitchen tile with a base of 75 inches and a height of 68 inches. # Triangle Area
+Determine the area of a triangular patio with a base of 72 meters and a height of 75 meters. # Triangle Area
+What is the area of a triangular tabletop with a base of 80 centimeters and a height of 72 centimeters? # Triangle Area
+Find the area of a triangular poster with a base of 77 inches and a height of 80 inches. # Triangle Area
+Calculate the area of a triangular classroom floor with a base of 85 feet and a height of 80 feet. # Triangle Area
+Determine the area of a triangular balcony with a base of 82 meters and a height of 90 meters. # Triangle Area
+What is the area of a triangular window with a base of 90 inches and a height of 84 inches? # Triangle Area
+Find the area of a triangular desk with a base of 87 centimeters and a height of 92 centimeters. # Triangle Area
+Calculate the area of a triangular patio table with a base of 95 inches and a height of 88 inches. # Triangle Area
+Determine the area of a triangular carpet with a base of 92 feet and a height of 95 feet. # Triangle Area
+What is the area of a triangular chalkboard with a base of 100 centimeters and a height of 92 centimeters? # Triangle Area
+Find the area of a triangular shelf with a base of 97 inches and a height of 100 inches. # Triangle Area
+Calculate the area of a triangular rug with a base of 105 meters and a height of 100 meters. # Triangle Area
+Determine the area of a triangular garden with a base of 102 units and a height of 110 units. # Triangle Area
+What is the area of a triangular bookcase with a base of 110 inches and a height of 105 inches? # Triangle Area
+Find the area of a triangular poster board with a base of 107 centimeters and a height of 120 centimeters. # Triangle Area
