@@ -705,3 +705,201 @@ x - 2 = 9 # algebra
 a + 5 = 11 # algebra
 2b - 6 = 5 # algebra
 7c + 3 = 30 # algebra
+203 + 48721 = # addition
+4562 + 78943 = # addition
+123456 + 7890 = # addition
+987654 + 12345 = # addition
+56789 + 43210 = # addition
+789012 + 34567 = # addition
+45678 + 12345 = # addition
+234567 + 876543 = # addition
+98765 + 432109 = # addition
+1234 + 567890 = # addition
+789012 + 345678 = # addition
+123456 + 789012 = # addition
+987654 + 123456 = # addition
+234567 + 87654 = # addition
+987654 + 234567 = # addition
+123456 + 78901 = # addition
+56789 + 4321 = # addition
+345678 + 90123 = # addition
+123456 + 789012 = # addition
+98765 + 432109 = # addition
+23456 + 876543 = # addition
+789012 + 34567 = # addition
+123456 + 7890 = # addition
+56789 + 43210 = # addition
+789012 + 34567 = # addition
+45678 + 12345 = # addition
+234567 + 876543 = # addition
+98765 + 432109 = # addition
+1234 + 567890 = # addition
+789012 + 345678 = # addition
+123456 + 789012 = # addition
+987654 + 123456 = # addition
+234567 + 87654 = # addition
+987654 + 234567 = # addition
+123456 + 78901 = # addition
+56789 + 4321 = # addition
+345678 + 90123 = # addition
+123456 + 789012 = # addition
+98765 + 432109 = # addition
+23456 + 876543 = # addition
+789012 + 34567 = # addition
+123456 + 7890 = # addition
+56789 + 43210 = # addition
+789012 + 34567 = # addition
+45678 + 12345 = # addition
+234567 + 876543 = # addition
+98765 + 432109 = # addition
+1234 + 567890 = # addition
+789012 + 345678 = # addition
+What is 203 + 48721? # addition
+Subtract 4562 from 78943. # subtraction
+Add 123456 and 7890. # addition
+What is the result of 987654 plus 12345? # addition
+Find the difference between 56789 and 43210. # subtraction
+Add 789012 and 34567. # addition
+Calculate 45678 plus 12345. # addition
+If you have 234567 and gain 876543 more, what is the total? # addition
+How much is 98765 plus 432109? # addition
+Combine 1234 and 567890. # addition
+Sum up 789012 and 345678. # addition
+Add 123456 and 789012. # addition
+Perform the addition: 987654 + 123456. # addition
+What is the total of 234567 and 87654? # addition
+Combine 987654 and 234567. # addition
+If you have 123456 and gain 78901 more, what is the new amount? # addition
+Subtract 56789 from 4321. # subtraction
+Find the result of 345678 minus 90123. # subtraction
+Calculate the sum of 123456 and 789012. # addition
+How much is 98765 plus 432109? # addition
+Combine 23456 and 876543. # addition
+Add 789012 and 34567. # addition
+What is 123456 plus 7890? # addition
+Find the sum of 56789 and 43210. # addition
+What is the result of 789012 plus 34567? # addition
+Add 45678 and 12345. # addition
+If you have 234567 and gain 876543 more, what is the total? # addition
+How much is 98765 plus 432109? # addition
+Combine 1234 and 567890. # addition
+Sum up 789012 and 345678. # addition
+Add 123456 and 789012. # addition
+Perform the addition: 987654 + 123456. # addition
+What is the total of 234567 and 87654? # addition
+Combine 987654 and 234567. # addition
+If you have 123456 and gain 78901 more, what is the new amount? # addition
+Subtract 56789 from 4321. # subtraction
+Find the result of 345678 minus 90123. # subtraction
+Calculate the sum of 123456 and 789012. # addition
+How much is 98765 plus 432109? # addition
+Combine 23456 and 876543. # addition
+Add 789012 and 34567. # addition
+What is 123456 plus 7890? # addition
+Find the sum of 56789 and 43210. # addition
+What is the result of 789012 plus 34567? # addition
+Add 45678 and 12345. # addition
+If you have 234567 and gain 876543 more, what is the total? # addition
+How much is 98765 plus 432109? # addition
+Combine 1234 and 567890. # addition
+Sum up 789012 and 345678. # addition
+What is 203 - 48721? # subtraction
+Subtract 4562 from 78943. # subtraction
+Find the difference between 123456 and 7890. # subtraction
+Calculate 987654 minus 12345. # subtraction
+How much less is 56789 than 43210? # subtraction
+Subtract 34567 from 789012. # subtraction
+What is the result of 45678 minus 12345? # subtraction
+If you have 234567 and lose 876543, what is the remaining amount? # subtraction
+How much is 98765 minus 432109? # subtraction
+Subtract 567890 from 1234. # subtraction
+What is the difference between 789012 and 345678? # subtraction
+Subtract 789012 from 123456. # subtraction
+Perform the subtraction: 987654 - 123456. # subtraction
+How much less is 87654 than 234567? # subtraction
+Subtract 234567 from 987654. # subtraction
+If you have 78901 and spend 123456, what is the result? # subtraction
+Subtract 4321 from 56789. # subtraction
+Find the result of 90123 minus 345678. # subtraction
+Calculate the difference between 789012 and 123456. # subtraction
+How much less is 432109 than 98765? # subtraction
+Subtract 876543 from 23456. # subtraction
+What is the result of 34567 minus 789012? # subtraction
+Subtract 7890 from 123456. # subtraction
+Find the difference between 43210 and 56789. # subtraction
+How much less is 34567 than 789012? # subtraction
+Subtract 12345 from 45678. # subtraction
+If you have 876543 and lose 234567, what is the remaining amount? # subtraction
+How much less is 432109 than 98765? # subtraction
+Subtract 567890 from 1234. # subtraction
+What is the difference between 345678 and 90123? # subtraction
+Subtract 789012 from 123456. # subtraction
+Perform the subtraction: 123456 - 987654. # subtraction
+How much less is 87654 than 234567? # subtraction
+Subtract 234567 from 987654. # subtraction
+If you have 78901 and spend 123456, what is the result? # subtraction
+Subtract 4321 from 56789. # subtraction
+Find the result of 90123 minus 345678. # subtraction
+Calculate the difference between 123456 and 789012. # subtraction
+How much less is 432109 than 98765? # subtraction
+Subtract 876543 from 23456. # subtraction
+What is the result of 34567 minus 789012? # subtraction
+Subtract 7890 from 123456. # subtraction
+Find the difference between 43210 and 56789. # subtraction
+How much less is 34567 than 789012? # subtraction
+Subtract 12345 from 45678. # subtraction
+If you have 876543 and lose 234567, what is the remaining amount? # subtraction
+How much less is 432109 than 98765? # subtraction
+Subtract 567890 from 1234. # subtraction
+What is the difference between 345678 and 90123? # subtraction
+Subtract 789012 from 123456. # subtraction
+Perform the subtraction: 123456 - 987654. # subtraction
+203 - 48721 = # subtraction
+4562 - 78943 = # subtraction
+123456 - 7890 = # subtraction
+987654 - 12345 = # subtraction
+56789 - 43210 = # subtraction
+789012 - 34567 = # subtraction
+45678 - 12345 = # subtraction
+234567 - 876543 = # subtraction
+98765 - 432109 = # subtraction
+1234 - 567890 = # subtraction
+789012 - 345678 = # subtraction
+123456 - 789012 = # subtraction
+987654 - 123456 = # subtraction
+234567 - 87654 = # subtraction
+987654 - 234567 = # subtraction
+123456 - 78901 = # subtraction
+56789 - 4321 = # subtraction
+345678 - 90123 = # subtraction
+123456 - 789012 = # subtraction
+98765 - 432109 = # subtraction
+23456 - 876543 = # subtraction
+789012 - 34567 = # subtraction
+123456 - 7890 = # subtraction
+56789 - 43210 = # subtraction
+789012 - 34567 = # subtraction
+45678 - 12345 = # subtraction
+234567 - 876543 = # subtraction
+98765 - 432109 = # subtraction
+1234 - 567890 = # subtraction
+789012 - 345678 = # subtraction
+123456 - 789012 = # subtraction
+987654 - 123456 = # subtraction
+234567 - 87654 = # subtraction
+987654 - 234567 = # subtraction
+123456 - 78901 = # subtraction
+56789 - 4321 = # subtraction
+345678 - 90123 = # subtraction
+123456 - 789012 = # subtraction
+98765 - 432109 = # subtraction
+23456 - 876543 = # subtraction
+789012 - 34567 = # subtraction
+123456 - 7890 = # subtraction
+56789 - 43210 = # subtraction
+789012 - 34567 = # subtraction
+45678 - 12345 = # subtraction
+234567 - 876543 = # subtraction
+98765 - 432109 = # subtraction
+1234 - 567890 = # subtraction
+789012 - 345678 = # subtraction
