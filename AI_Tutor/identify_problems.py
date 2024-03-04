@@ -3,6 +3,7 @@ import numpy as np
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
+import pickle
 
 with open('questions.txt', 'r') as file:
     lines = file.readlines()
@@ -49,3 +50,13 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
 
 model.save('model1.keras')
+
+saved_data = {
+    'tokenizer': tokenizer,
+    'max_sequence_length': max_sequence_length,
+    'label_dict': label_dict,
+    'inverse_label_dict': {i: math_type for math_type, i in label_dict.items()}
+}
+
+with open('tokenizer_and_parameters.pkl', 'wb') as file:
+    pickle.dump(saved_data, file)
