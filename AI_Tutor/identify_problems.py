@@ -47,7 +47,7 @@ model = tf.keras.Sequential([
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test))
+model.fit(X_train, y_train, epochs=30, validation_data=(X_test, y_test))
 
 model.save('model1.keras')
 
