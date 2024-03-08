@@ -1,34 +1,36 @@
 from datasets import load_dataset
-from transformers import AutoTokenizer
-from transformers import DataCollatorForSeq2Seq
+from transformers import AutoTokenizer, DataCollatorForSeq2Seq
+from transformers import AdamWeightDecay, TFAutoModelForSeq2SeqLM
+from transformers.keras_callbacks import KerasMetricCallback
 import evaluate
 import numpy as np
-from transformers import AdamWeightDecay
-from transformers import TFAutoModelForSeq2SeqLM
 import tensorflow as tf
+from keras.callbacks import EarlyStopping
 
 billsum = load_dataset("billsum", split="ca_test")
 billsum = billsum.train_test_split(test_size=0.2)
 
-checkpoint = "google-t5/t5-small"
+checkpoint = "t5-small"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
 prefix = "summarize: "
 
 def preprocess_function(examples):
     inputs = [prefix + doc for doc in examples["text"]]
-    model_inputs = tokenizer(inputs, max_length=1024, truncation=True)
-    labels = tokenizer(text_target=examples["summary"], max_length=128, truncation=True)
+    model_inputs = tokenizer(inputs, max_length=1024, truncation=True, padding="max_length")
+    labels = tokenizer(examples["summary"], max_length=128, truncation=True, padding="max_length")
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
-def compute_metrics(eval_pred):
-    predictions, labels = eval_pred
-    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    result = rouge.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
-    prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
+def compute_metrics(pred):
+    labels_ids = pred.label_ids
+    pred_ids = pred.predictions
+    pred_str = tokenizer.batch_decode(pred_ids, skip_special_tokens=True)
+    labels_ids[labels_ids == -100] = tokenizer.pad_token_id
+    label_str = tokenizer.batch_decode(labels_ids, skip_special_tokens=True)
+    
+    result = rouge.compute(predictions=pred_str, references=label_str, use_stemmer=True)
+    prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in pred_ids]
     result["gen_len"] = np.mean(prediction_lens)
     return {k: round(v, 4) for k, v in result.items()}
 
@@ -55,11 +57,15 @@ tf_test_set = model.prepare_tf_dataset(
 
 model.compile(optimizer=optimizer)
 
+metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf_test_set)
+
+callbacks = [metric_callback]
+
 model.fit(
-    tf_train_set,
+    x=tf_train_set,
     epochs=3,
     validation_data=tf_test_set,
-    callbacks=[tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=2)],
+    callbacks=callbacks,
     verbose=1
 )
 
