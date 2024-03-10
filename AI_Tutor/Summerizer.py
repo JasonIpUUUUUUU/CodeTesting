@@ -6,13 +6,16 @@ from keras.layers import Embedding, LSTM, Dense
 from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 
-articles = [
-    
-]
+with open('Articles.txt', 'r') as file:
+    lines = file.readlines()
 
-summaries = [
-    
-]
+questions = []
+math_types = []
+
+for line in lines:
+    parts = line.strip().split('#')
+    questions.append(parts[0])
+    math_types.append(parts[1])
 
 combined_data = [(article, summary) for article, summary in zip(articles, summaries)]
 
@@ -54,5 +57,4 @@ model.fit(
     callbacks=[early_stopping_callback]
 )
 
-# Save the model for later use
 model.save("article_summarizer_model.h5")

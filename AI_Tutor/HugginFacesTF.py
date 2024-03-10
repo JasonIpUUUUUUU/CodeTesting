@@ -2,6 +2,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, DataCollatorForSeq2Seq
 from transformers import AdamWeightDecay, TFAutoModelForSeq2SeqLM
 from transformers.keras_callbacks import KerasMetricCallback
+from transformers import TFGPT2LMHeadModel, GPT2Tokenizer, TFTrainer, TFTrainingArguments
 import evaluate
 import numpy as np
 import tensorflow as tf
@@ -61,13 +62,34 @@ metric_callback = KerasMetricCallback(metric_fn=compute_metrics, eval_dataset=tf
 
 callbacks = [metric_callback]
 
-model.fit(
-    x=tf_train_set,
-    epochs=3,
-    validation_data=tf_test_set,
-    callbacks=callbacks,
-    verbose=1
+training_args = TFTrainingArguments(
+    output_dir="FineTunedDir",
+    overwrite_output_dir=True,
+    num_train_epochs=20,
+    per_device_train_batch_size=64,
+    save_steps=10_000,
+    save_total_limit=2,
+    fp16=False
 )
+
+trainer = TFTrainer(
+    model=model,
+    args=training_args,
+    data_collator=data_collator,
+    train_dataset=tf_train_set,
+)
+
+trainer.train()
+
+results = trainer.evaluate(tf_test_set)
+
+# model.fit(
+#     x=tf_train_set,
+#     epochs=3,
+#     validation_data=tf_test_set,
+#     callbacks=callbacks,
+#     verbose=1
+# )
 
 model.save_pretrained("t5_small_summarizer")
 tokenizer.save_pretrained("t5_small_summarizer")
