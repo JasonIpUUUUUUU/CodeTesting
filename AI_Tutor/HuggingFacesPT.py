@@ -6,7 +6,7 @@ import evaluate
 import numpy as np
 
 billsum = load_dataset("billsum", split="ca_test")
-billsum = billsum.train_test_split(test_size=0.2)
+billsum = billsum.train_test_split(test_size=0.001)
 
 #to access billsum data, you can use billsum["train"][0]
 
@@ -44,6 +44,8 @@ def compute_metrics(eval_pred):
     return {k: round(v, 4) for k, v in result.items()}
 
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint).to("cpu") #This is set to CPU as it runs faster on my laptop
+
+print(next(model.parameters()).device)
 
 training_args = Seq2SeqTrainingArguments(
     output_dir="summarizer_dir",

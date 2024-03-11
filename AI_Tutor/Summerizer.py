@@ -5,17 +5,21 @@ from keras.models import Sequential
 from keras.layers import Embedding, LSTM, Dense
 from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
+from keras.utils import to_categorical
+import pickle
+
+prefix = "Summarise: "
 
 with open('Articles.txt', 'r') as file:
     lines = file.readlines()
 
-questions = []
-math_types = []
+articles = []
+summaries = []
 
 for line in lines:
-    parts = line.strip().split('#')
-    questions.append(parts[0])
-    math_types.append(parts[1])
+    parts = line.strip().split('@')
+    articles.append(prefix + parts[0])
+    summaries.append(parts[1])
 
 combined_data = [(article, summary) for article, summary in zip(articles, summaries)]
 
@@ -24,8 +28,8 @@ train_data, test_data = train_test_split(combined_data, test_size=0.5, random_st
 train_articles, train_summaries = zip(*train_data)
 test_articles, test_summaries = zip(*test_data)
 
-max_words = 10000  
-max_len = 100 
+max_words = 10000
+max_len = 100
 
 tokenizer = Tokenizer(num_words=max_words, oov_token="<OOV>")
 tokenizer.fit_on_texts(train_articles + train_summaries)
@@ -36,25 +40,37 @@ train_summary_sequences = pad_sequences(tokenizer.texts_to_sequences(train_summa
 test_article_sequences = pad_sequences(tokenizer.texts_to_sequences(test_articles), maxlen=max_len, padding='post', truncating='post')
 test_summary_sequences = pad_sequences(tokenizer.texts_to_sequences(test_summaries), maxlen=max_len, padding='post', truncating='post')
 
-embedding_dim = 100  # Adjust based on your desired embedding dimension
+train_summary_sequences_onehot = to_categorical(train_summary_sequences, num_classes=max_words)
+test_summary_sequences_onehot = to_categorical(test_summary_sequences, num_classes=max_words)
+
+embedding_dim = 100
 model = Sequential([
-    Embedding(input_dim=max_words, output_dim=embedding_dim, input_length=max_len),
-    LSTM(100),
-    Dense(max_len, activation='softmax')
+    Embedding(input_dim=max_words, output_dim=embedding_dim),
+    LSTM(100, return_sequences=True),
+    Dense(max_words, activation='softmax')
 ])
 
-model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 model.summary()
 
 early_stopping_callback = EarlyStopping(monitor='val_loss', patience=2, restore_best_weights=True)
-epochs = 10  
+epochs = 10
 
 model.fit(
-    train_article_sequences, 
-    train_summary_sequences, 
-    epochs=epochs, 
-    validation_data=(test_article_sequences,test_summary_sequences),
+    train_article_sequences,
+    train_summary_sequences_onehot,  
+    epochs=epochs,
+    validation_data=(test_article_sequences, test_summary_sequences_onehot),  
     callbacks=[early_stopping_callback]
 )
 
-model.save("article_summarizer_model.h5")
+model.save('summariser.keras')
+
+saved_data = {
+    'tokenizer': tokenizer,
+    'max_sequence_length': max_len
+}
+
+with open('tokenizer_and_parameters.pkl', 'wb') as file:
+    pickle.dump(saved_data, file)
+
