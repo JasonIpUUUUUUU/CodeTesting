@@ -66,22 +66,10 @@ training_args = TFTrainingArguments(
     output_dir="FineTunedDir",
     overwrite_output_dir=True,
     num_train_epochs=20,
-    per_device_train_batch_size=64,
+    per_device_train_batch_size=16,
     save_steps=10_000,
     save_total_limit=2,
-    fp16=False
 )
-
-trainer = TFTrainer(
-    model=model,
-    args=training_args,
-    data_collator=data_collator,
-    train_dataset=tf_train_set,
-)
-
-trainer.train()
-
-results = trainer.evaluate(tf_test_set)
 
 # model.fit(
 #     x=tf_train_set,
@@ -91,5 +79,5 @@ results = trainer.evaluate(tf_test_set)
 #     verbose=1
 # )
 
-model.save_pretrained("t5_small_summarizer")
-tokenizer.save_pretrained("t5_small_summarizer")
+# model.save_pretrained("t5_small_summarizer")
+# tokenizer.save_pretrained("t5_small_summarizer")

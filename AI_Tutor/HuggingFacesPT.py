@@ -5,8 +5,6 @@ from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2Se
 import evaluate
 import numpy as np
 
-#Before running the script, run huggingface-cli login in terminal and access token from huggingfaces account
-
 billsum = load_dataset("billsum", split="ca_test")
 billsum = billsum.train_test_split(test_size=0.2)
 
@@ -51,15 +49,14 @@ training_args = Seq2SeqTrainingArguments(
     output_dir="summarizer_dir",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
     weight_decay=0.01,
     save_total_limit=3,
     num_train_epochs=4,
     predict_with_generate=True,
     fp16=False, #Only set to false because I am using a MAC
     push_to_hub=False,
-    device="cpu",
 )
 
 trainer = Seq2SeqTrainer(
