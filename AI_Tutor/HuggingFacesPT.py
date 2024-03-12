@@ -6,7 +6,7 @@ import evaluate
 import numpy as np
 
 billsum = load_dataset("billsum", split="ca_test")
-billsum = billsum.train_test_split(test_size=0.001)
+billsum = billsum.train_test_split(test_size=0.0001)
 
 #to access billsum data, you can use billsum["train"][0]
 
