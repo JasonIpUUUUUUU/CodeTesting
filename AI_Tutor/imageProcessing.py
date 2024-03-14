@@ -5,9 +5,9 @@ folder_path = "Images"
 output_folder = "path"
 
 if os.path.exists(folder_path):
-    "print image folder found"
+    print("image folder found")
 else:
-    "print folder directory incorrect"
+    print("image folder not found")
 
 images = os.listdir(folder_path)
 
