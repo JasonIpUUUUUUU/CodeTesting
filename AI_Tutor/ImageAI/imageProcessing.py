@@ -74,8 +74,13 @@ def detectStructures(image):
         cv2.rectangle(newImage, (x, y), (x + w, y + h), (36, 255, 12), 2)
     return newImage
 
+def preprocess(img):
+    processed_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    _, processed_img = cv2.threshold(processed_img, 190, 255, cv2.THRESH_BINARY)
+    processed_img = noise_removal(processed_img)
+    return processed_img
+
 folder_path = "Images"
-output_folder = "path"
 
 images = os.listdir(folder_path)
 
@@ -83,11 +88,7 @@ image_files = [os.path.join(folder_path, file) for file in images]
 
 img = cv2.imread(image_files[2])
 
-processed_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-thresh, processed_img = cv2.threshold(processed_img, 190, 255, cv2.THRESH_BINARY)
-
-processed_img = noise_removal(processed_img)
+processed_img = preprocess(img)
 
 processed_img = detectStructures(processed_img)
 
