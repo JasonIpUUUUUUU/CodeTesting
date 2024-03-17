@@ -44,6 +44,7 @@ def getSkewAngle(cvImage) -> float:
     if angle < -45:
         angle = 90 + angle
     return -1.0 * angle
+
 # Rotate the image around its center
 def rotateImage(cvImage, angle: float):
     newImage = cvImage.copy()
@@ -53,6 +54,23 @@ def rotateImage(cvImage, angle: float):
     newImage = cv2.warpAffine(newImage, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
     return newImage
 
+def detectStructures(image):
+    # processing the image so the structures can be more easily identified
+    newImage = image.copy()
+    blurredImage = cv2.GaussianBlur(newImage, (7,7), 0)
+    thresh = cv2.threshold(blurredImage, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (16, 10))
+    blurredImage = cv2.dilate(thresh, kernel, iterations=1)
+    cnts = cv2.findContours(blurredImage, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    cnts = cnts[0] if len(cnts) == 2 else cnts[1]
+    cnts = sorted(cnts, key=lambda x: cv2.boundingRect(x)[0])
+    cv2.imshow("processed image", blurredImage)
+    cv2.waitKey(0)
+    for c in cnts:
+        x,y,w,h = cv2.boundingRect(c)
+        cv2.rectangle(newImage, (x, y), (x + w, y + h), (36, 255, 12), 2)
+    return newImage
+
 folder_path = "Images"
 output_folder = "path"
 
@@ -60,13 +78,15 @@ images = os.listdir(folder_path)
 
 image_files = [os.path.join(folder_path, file) for file in images]
 
-img = cv2.imread(image_files[0])
+img = cv2.imread(image_files[1])
 
 processed_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 thresh, processed_img = cv2.threshold(processed_img, 190, 255, cv2.THRESH_BINARY)
 
 processed_img = noise_removal(processed_img)
+
+processed_img = detectStructures(processed_img)
 
 cv2.imshow("processed image", processed_img)
 cv2.waitKey(0)
