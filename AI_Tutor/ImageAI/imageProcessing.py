@@ -63,14 +63,15 @@ def detectStructures(image):
     blurredImage = cv2.dilate(thresh, kernel, iterations=1)
     cnts = cv2.findContours(blurredImage, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     cnts = cnts[0] if len(cnts) == 2 else cnts[1]
-    cnts = sorted(cnts, key=lambda x: cv2.boundingRect(x)[0])
+    cnts = sorted(cnts, key=lambda x: cv2.boundingRect(x)[1])
     for c in cnts:
         x,y,w,h = cv2.boundingRect(c)
-        cv2.rectangle(newImage, (x, y), (x + w, y + h), (36, 255, 12), 2)
         roi = newImage[y:y+h, x:x+w]
         text = pytesseract.image_to_string(roi)
-        with open("results.txt", "a") as f:
-            f.write(text.replace('\n', ' ').strip() + ' ')
+        if text:
+            with open("results.txt", "a") as f:
+                f.write(text.replace('\n', ' ').strip() + '\n')
+        cv2.rectangle(newImage, (x, y), (x + w, y + h), (36, 255, 12), 2)
     return newImage
 
 folder_path = "Images"
@@ -94,7 +95,3 @@ cv2.imshow("processed image", processed_img)
 cv2.waitKey(0)
 
 result = pytesseract.image_to_string(processed_img)
-
-output_file_path = os.path.join("results.txt")
-with open(output_file_path, 'w') as f:
-    f.write(result)
